@@ -13,7 +13,7 @@ def is_a_right_triangle(a, b, c):
         return False
     list_2 = [a ,b ,c]
     list_2.sort()
-    return list_2[-1] ** 2 == list_2[0] ** 2 + list_2[1] ** 2
+    return round((list_2[-1] ** 2) , 1 ) == round((list_2[0] ** 2 + list_2[1] ** 2) , 1 )
 
 
 a = float(input('Enter the first side\'s length: '))
