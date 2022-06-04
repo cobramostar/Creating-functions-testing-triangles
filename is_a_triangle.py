@@ -6,7 +6,7 @@
 # 4.5.1.4 Creating functions | testing triangles
 
 def is_a_triangle(a, b, c):
-    return a + b > c and b + c > a and c + a > b and a>0 and b>0 and c>0
+    return a + b > c and b + c > a and c + a > b 
     
 def is_a_right_triangle(a, b, c):
     if not is_a_triangle(a, b, c):
